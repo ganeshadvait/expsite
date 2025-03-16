@@ -1,5 +1,5 @@
 "use client";
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import React from 'react';
 import './sstyles.css';
 import { useInView } from 'react-intersection-observer';
@@ -52,12 +52,12 @@ export default function Second() {
                     <div className="relative w-full h-45">
                     
                 <Image
-                ref={ref}
+               
                 src={service.image} 
                 alt={service.title} 
                     layout="fill"
                     objectFit="cover"
-                    className={`rounded-t-lg ${inView ? "fade-in" : "opacity-0"}`}
+                    className="rounded-t-lg "
                     
     
                 />

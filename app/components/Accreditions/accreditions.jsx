@@ -1,5 +1,5 @@
 "use client";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import  './accstyles.css';
 import { useInView } from "react-intersection-observer";
 

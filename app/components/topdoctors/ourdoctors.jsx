@@ -18,10 +18,10 @@ const DoctorCard = () => {
         <div className=" doctor_card bg-white rounded-xl shadow-md w-72 text-center transition-transform duration-300 hover:-translate-y-1 pb-5">
           <div className="bg-blue-100 flex items-center justify-center rounded-t-xl p-3">
             <img
-            ref={ref}
+           
               src="https://test.luxhospitals.com/wp-content/uploads/2025/03/dr-card.webp"
               alt="Dr. Samhitha Reddy"
-              className={` max-w-[250px] h-auto mb-[-10px] ${inView ? "opacity-100" : 'opacity-0'}`}
+              className= "max-w-[250px] h-auto mb-[-10px] "
             />
           </div>
           <div className="p-4">
@@ -29,10 +29,10 @@ const DoctorCard = () => {
             <p className="text-sm text-gray-600 mt-1">Gynacologist</p>
             <div className="flex items-center justify-center mt-2">
               <img
-              ref={ref} 
+              
                 src="https://test.luxhospitals.com/wp-content/uploads/2025/03/Raiting.svg"
                 alt="Star Rating"
-                className={`w-24 ${inView ? "opacity-100" : 'opacity-0'}`}
+                className="w-24 "
               />
               <span className="text-blue-400 text-sm ml-2">(102)</span>
             </div>
@@ -59,10 +59,10 @@ const DoctorCard = () => {
         <div className="doctor_card bg-white rounded-xl shadow-md w-72 text-center transition-transform duration-300 hover:-translate-y-1 pb-5">
           <div className="bg-blue-100 flex items-center justify-center rounded-t-xl p-3">
             <img
-            ref={ref}
+            
               src="https://test.luxhospitals.com/wp-content/uploads/2025/03/dr-card.webp"
               alt="Dr. Samhitha Reddy"
-              className={` max-w-[250px] h-auto mb-[-10px] ${inView ? "opacity-100" : 'opacity-0'}`}
+              className="max-w-[250px] h-auto mb-[-10px] "
             />
           </div>
           <div className="p-4">
@@ -70,10 +70,10 @@ const DoctorCard = () => {
             <p className="text-sm text-gray-600 mt-1">Gynacologist</p>
             <div className="flex items-center justify-center mt-2">
               <img
-              ref={ref}
+              
                 src="https://test.luxhospitals.com/wp-content/uploads/2025/03/Raiting.svg"
                 alt="Star Rating"
-                className={`w-24 ${inView ? "opacity-100" : 'opacity-0'}`}
+                className="w-24 "
               />
               <span className="text-blue-400 text-sm ml-2">(102)</span>
             </div>

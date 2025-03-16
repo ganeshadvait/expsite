@@ -1,6 +1,6 @@
 "use client";
 import './luxgptstyles.css';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import { useInView } from "react-intersection-observer";
 export default function Luxgpt () {
     const { ref, inView } = useInView({

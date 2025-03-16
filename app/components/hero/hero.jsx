@@ -1,7 +1,8 @@
 
 import './herostyles.css';
 // import { useInView } from "react-intersection-observer";
-import Image from 'next/image';
+import Image from "next/image";
+
 import React from 'react';  
 export default function Hero () {
     // const { ref, inView } = useInView({
@@ -30,7 +31,7 @@ export default function Hero () {
      className="fade-up hero_title hero-title font-500">{heroContent.title}</h1>  
            <div className='hero_content flex flex-wrap'>
             <div className="left_hero">                 
-                <Image  src={heroContent.heroImage} alt="Lazy loaded"  className="logo-fade hero_image"  fill />                 
+                <Image  src={heroContent.heroImage} alt="Lazy loaded"  className="logo-fade hero_image"  layout='fill' />                 
             </div>
             <div className="right_hero">
             
